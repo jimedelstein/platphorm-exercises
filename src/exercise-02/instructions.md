@@ -7,7 +7,7 @@ retrieve the displayName associated with the Payor/Payee.
 
 This is the path through the exercise. Each file will have its own directions.
 
-Start in
+Edit files in this order:
 
 - zippay-prop-types.js
 - PayorPayee.jsx
