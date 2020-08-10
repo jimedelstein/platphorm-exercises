@@ -1,10 +1,6 @@
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  NavLink,
-} from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
+import Exercise2Manager from './exercise-02/solution/Exercise2Manager';
 
 function App() {
   return (
@@ -24,29 +20,17 @@ function App() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  activeClassName="active"
-                  to="/exercise-02"
-                  className="nav-link"
-                >
+                <NavLink activeClassName="active" to="/exercise-02" className="nav-link">
                   Exercise 2
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  activeClassName="active"
-                  to="/exercise-03"
-                  className="nav-link"
-                >
+                <NavLink activeClassName="active" to="/exercise-03" className="nav-link">
                   Exercise 3
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  activeClassName="active"
-                  to="/exercise-04"
-                  className="nav-link"
-                >
+                <NavLink activeClassName="active" to="/exercise-04" className="nav-link">
                   Exercise 4
                 </NavLink>
               </li>
@@ -56,17 +40,8 @@ function App() {
         <div className="row pl-1">
           <div className="col">
             <Switch>
-              <Route path="/users">
-                <UsersManager />
-              </Route>
-              <Route path="/transactions">
-                <TransactionsManager />
-              </Route>
-              <Route path="/demos">
-                <DemosManager />
-              </Route>
-              <Route path="/" exact>
-                <Home />
+              <Route path="/exercise-02" exact>
+                <Exercise2Manager />
               </Route>
             </Switch>
           </div>
