@@ -1,1 +1,5 @@
-@import url('../public//css/bootstrap.css');
+@import url('./css/bootstrap.css');
+
+.clickable {
+  cursor: pointer;
+}
