@@ -34,11 +34,9 @@ function PayorPayee({ payor, payee, toggleDisplay }) {
   });
 
   return (
-    <div>
-      <li className={classes} onClick={() => toggleDisplay(value)}>
-        {label}: {getDisplayNameOrId(value)}
-      </li>
-    </div>
+    <li className={classes} onClick={() => toggleDisplay(value)}>
+      {label}: {getDisplayNameOrId(value)}
+    </li>
   );
 }
 
