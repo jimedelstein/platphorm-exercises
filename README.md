@@ -1,3 +1,21 @@
+# Instructions
+From John Paxton:
+
+Students should be able to do the usual:
+git clone https://github.com/jimedelstein/platphorm-exercises
+cd platphorm-exercises
+npm install
+npm start
+
+The directions for exercise 1 are in src/exercise-01/TransactionDetails.jsx.
+
+Exercises 2 and 3 have instructions in an instructions.md file in their respective folders.
+
+Exercises 2 and 3 are big and cover a lot of ground. I chose to go for larger-scale exercises rather than many small exercises.
+
+
+# Create React App Readme:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
