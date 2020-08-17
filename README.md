@@ -1,5 +1,5 @@
 # Instructions
-From John Paxton:
+From John P.:
 
 Students should be able to do the usual:
 git clone https://github.com/jimedelstein/platphorm-exercises
